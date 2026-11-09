@@ -1,0 +1,33 @@
+# Credentials, local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+# logs and large results
+*.bag
+*.bag2
+*.mcap
+*.mp4
+*.mov
+*.avi
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.onnx
+runs/
+outputs/
+checkpoints/
+datasets/
+# personal host configurations
+.local/
