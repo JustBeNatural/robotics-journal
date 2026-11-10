@@ -1,20 +1,36 @@
-# Robotics Learning Journal
+# 🤖 Robotics Learning Journal
 
-记录我学习机器人论文、理解代码和进行实验的过程，方便以后回看和继续。
+记录机器人论文阅读、代码理解与实验过程，让每次学习都能找到来路和下一步。
 
-## 项目导航
+## 🌿 Projects
 
-| 项目 | 学习目标 | 当前记录 | 入口 |
-| --- | --- | --- | --- |
-| RAX | 理解方法与交互接口，逐步完成仿真和真机验证 | 已有代码、PDF 与学习计划；实际进度待更新 | [项目首页](projects/RAX/README.md) |
-| AgenticLab | 待确认论文与学习目标 | 待读占位 | [项目首页](projects/AgenticLab/README.md) |
-| Atomic policy | 待补充 | 保留原有空白实验笔记 | [项目首页](projects/atomic-policy/README.md) |
+> [!IMPORTANT]
+> **这里是学习记录的总索引。** 点击项目名称，查看该项目的论文笔记、环境配置、日期日志和阶段总结。每个项目的学习过程集中保存在自己的目录中。
 
-## 最近在学什么
+| Project | 方向 | Contents | 记录状态 |
+| :--- | :--- | :--- | :--- |
+| [**RAX**](projects/RAX/README.md) | 🖥️ 仿真 / 🦾 真机部署计划 | RoboDojo 交互接口、Franka 双电脑部署；包含本地代码、论文 PDF、学习路线、环境记录和日志入口。 | 📝 框架已建，运行结果待记录 |
+| [**AgenticLab**](projects/AgenticLab/README.md) | 📖 论文阅读 | 待确认论文来源，整理阅读动机与学习目标，再逐步补充笔记。 | ⏳ 待读 |
+| [**Atomic policy**](projects/atomic-policy/README.md) | 🧪 待明确 | 保留原有实验笔记位置，后续补充学习背景、实验目标与过程。 | ⏳ 待整理 |
 
-当前已有 RAX 的学习计划，涉及 RoboDojo 仿真接口和 Franka 双电脑部署。下一步是补齐论文来源，选定最小任务，并记录第一次实际运行。
+状态描述的是本仓库的记录进度。实验是否成功，以项目日志中的实际结果与证据为准。
 
-还没有填写日期日志。开始记录后，把最近一次日志链接放在对应项目的首页；本页只保留项目概览。
+---
+
+## 🧭 Quick Links
+
+| 我想…… | 从这里进入 |
+| :--- | :--- |
+| 接着学习 RAX | [项目首页与下一步](projects/RAX/README.md) |
+| 回看 RAX 的学习过程 | [日期日志](projects/RAX/logs/README.md) |
+| 查看 RAX 的论文理解 | [论文笔记](projects/RAX/paper-notes.md) |
+| 查看 RAX 的部署方法 | [环境记录](projects/RAX/setup.md) |
+| 回顾阶段收获 | [RAX 总结](projects/RAX/summary.md) |
+| 写今天的学习记录 | [学习日志模板](templates/learning-log.md) |
+| 开始一个新项目 | [项目首页模板](templates/project.md) |
+| 查找跨项目知识 | [知识笔记](notes/README.md) |
+
+---
 
 ## 怎么记录
 
@@ -45,12 +61,10 @@ projects/<项目>/
 
 ## 提交到 GitHub
 
-在仓库根目录检查修改，按需要选择文件提交。日志中的计划、实际观察与个人解释分别写清楚，保留可追溯的命令、版本及结果。
+在仓库根目录检查本次变更，再按主题选择文件提交。保留可以追溯的命令、版本与结果。
 
 ```bash
 git status --short
 git diff --stat
-# 检查本次要提交的文件，再 git add 和 git commit
+# 检查后按需 git add、git commit 和 git push
 ```
-
-代码、PDF 与原有资料已保留到对应项目；之前的研究地图、追踪表和想法索引合并为项目导航与笔记。旧路径的书签和本地配置需要更新。
